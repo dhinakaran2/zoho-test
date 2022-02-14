@@ -1,0 +1,36 @@
+package org.test;
+
+import java.util.Scanner;
+
+public class Subrole extends CEO{
+    public static Scanner S;
+	public void COO() {
+		// TODO Auto-generated method stub
+		
+		Scanner S = new Scanner(System.in);
+		System.out.println("Enter root role name:");
+		String rootname = S.nextLine();
+		System.out.println("Operation:");
+		int i = 1;
+		if (i>=1) {
+			System.out.println("1.Add sub Role:");
+			String rootname1 = S.nextLine();
+			System.out.println("Operation to be performed:"+rootname1);
+			String rootname2 = S.nextLine();
+			System.out.println("Enter the sub role:"+rootname2);
+			String rootname3 = S.nextLine();
+			System.out.println("Enter the reporting to role name:"+rootname3);
+			String rootname4 = S.nextLine();
+			System.out.println(rootname3+rootname2+rootname1);
+		} 	
+	}
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+		
+		Subrole sb =new Subrole();
+		sb.COO();
+		sb.Ceo();
+				
+	}
+}
+

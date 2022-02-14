@@ -1,0 +1,32 @@
+Q1.
+
+package org.test;
+
+import java.util.Scanner;
+
+
+public class CEO {
+	public static void Ceo()
+	{
+		Scanner C = new Scanner(System.in);
+		System.out.println("Enter root role name:");
+		String rootname = C.nextLine();
+		System.out.println(rootname);
+		
+	}
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+		CEO c1 =new CEO();
+		c1.Ceo();
+			
+}
+}
+
+Output:
+------
+Enter root role name:
+CEO
+CEO
+
+
+
